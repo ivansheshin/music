@@ -1,4 +1,6 @@
 {
-  "extends": ["react-app", "react-app/jest"],
-  "plugins": ["jest"]
+  "extends": [
+    "react-app",
+    "react-app/jest"
+  ]
 }
