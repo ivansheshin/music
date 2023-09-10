@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './BaseLayout.module.css';
 import TheHeader from "../TheHeader";
 
-function BaseLayout() {
+export default function BaseLayout() {
   return (
       <div className={styles['page-container']}>
         <TheHeader/>
@@ -18,5 +18,3 @@ function BaseLayout() {
       </div>
   );
 }
-
-export default BaseLayout;
