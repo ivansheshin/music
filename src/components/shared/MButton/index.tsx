@@ -1,10 +1,10 @@
-interface IProps {
+type props = {
   title?: string;
 }
 
-export default function MButton({title}: IProps) {
+export default function MButton({title}: props) {
   return (
-      <button type="button">
+      <button type="button" title={title}>
         {title}
       </button>
   )
