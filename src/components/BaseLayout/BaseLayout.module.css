@@ -5,7 +5,8 @@
   background-color: var(--primary-color);
 }
 
-.page {
+.main {
   display: flex;
   flex: 1;
+  padding: 16px;
 }
